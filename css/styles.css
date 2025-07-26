@@ -1,0 +1,71 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.5;
+    background-color: #fff;
+    color: #000;
+}
+
+*.focus{
+    outline: none;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img,
+picture{
+    max-width: 100%;
+    display: block;
+}
+
+button{
+    background: none;
+    border: none;
+    cursor: pointer;
+    font: inherit;
+}
+
+input,
+button,
+textarea,
+select{
+    font: inherit;
+}
+
+/* header */
+
+.header-section {}
+
+.header-logo {}
+
+.header-nav {}
+
+.header-nav-lists {}
+
+.header-nav-title {}
+
+.header-button {}
